@@ -1,0 +1,10 @@
+### Round 0 ###
+init => 0.0
+0.0 => fix_symbolic => 0.1
+0.1 => remove_edge => 0.2
+0.2 => remove_edge => 0.3
+0.3 => remove_edge => 0.4
+0.4 => remove_edge => 0.5
+0.5 => remove_edge => 0.6
+0.6 => fix_symbolic => 0.7
+0.7 => fix_symbolic => 0.8
