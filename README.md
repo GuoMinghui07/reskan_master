@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Overview
 
 Extracting the governing equation for complex systems is a critical task in scientific research. Previous research often focuses on the static properties of governing equations, while real-world dynamics involve complex, evolving factors that influence system behavior. This work proposes a novel approach that integrates single-layer Kolmogorov-Arnold networks (KAN) in the downstream operations of physics-informed neural networks (PINNs), combined with an alternating training strategy using sparse regression algorithms.
@@ -14,3 +15,6 @@ To set up the environment, ensure that you have Python 3.9.7 or higher installed
 pip install -r requirements.txt
 ```
 
+=======
+# reskan_master
+>>>>>>> 2acdcac41f23a0fc723238d637d3bb6fe44d43dc
