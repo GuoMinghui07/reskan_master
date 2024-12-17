@@ -1,27 +1,18 @@
 # Extracting Variable-coefficient Governing Equations with Kolmogorov-Arnold Networks and Sparse Regression from Limited Data
 
-# Extracting Variable-coefficient Governing Equations with Kolmogorov-Arnold Networks and Sparse Regression from Limited Data
-
 ## Overview
 
 Extracting governing equations for complex systems is a crucial task in scientific research. Traditional approaches often emphasize static properties of these equations, while real-world systems exhibit dynamic, evolving behavior influenced by a multitude of factors. In this work, we introduce a novel method that integrates single-layer Kolmogorov-Arnold networks (KANs) into the downstream operations of physics-informed neural networks (PINNs), paired with an alternating training strategy leveraging sparse regression algorithms.
 
 Our approach stands apart by reconstructing the precise form of partial differential equations (PDEs) and identifying variable-coefficient functions using sparse data alone—without requiring prior knowledge. By symbolizing spline functions within the KAN layer, we derive expressions for these coefficient functions and uncover physically meaningful parameters. Through extensive numerical experiments, we demonstrate that our method is both robust and effective, handling complex systems with varying levels of data sparsity and noise. This work presents a powerful new solution for reconstructing and analyzing dynamic systems.
-Extracting governing equations for complex systems is a crucial task in scientific research. Traditional approaches often emphasize static properties of these equations, while real-world systems exhibit dynamic, evolving behavior influenced by a multitude of factors. In this work, we introduce a novel method that integrates single-layer Kolmogorov-Arnold networks (KANs) into the downstream operations of physics-informed neural networks (PINNs), paired with an alternating training strategy leveraging sparse regression algorithms.
-
-Our approach stands apart by reconstructing the precise form of partial differential equations (PDEs) and identifying variable-coefficient functions using sparse data alone—without requiring prior knowledge. By symbolizing spline functions within the KAN layer, we derive expressions for these coefficient functions and uncover physically meaningful parameters. Through extensive numerical experiments, we demonstrate that our method is both robust and effective, handling complex systems with varying levels of data sparsity and noise. This work presents a powerful new solution for reconstructing and analyzing dynamic systems.
 
 ## Hardware Requirements
-## Hardware Requirements
 
-- **Processor**: AMD EPYC 7642 48-Core
-- **GPU**: NVIDIA GeForce RTX 4090 (24GB)
 - **Processor**: AMD EPYC 7642 48-Core
 - **GPU**: NVIDIA GeForce RTX 4090 (24GB)
 
 ## Installation
 
-To set up the environment, ensure that Python 3.9.7 or higher is installed. Then, install the required libraries with the following command:
 To set up the environment, ensure that Python 3.9.7 or higher is installed. Then, install the required libraries with the following command:
 
 ```bash
