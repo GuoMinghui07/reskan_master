@@ -35,23 +35,23 @@ pip install -r requirements.txt
 
 Below are the results of five representative experiments, visualized as animations:
 
-### KdV1 Experiment
+### KdV1
 
 ![KdV1 Animation](video_gif/KdV1_video.gif)
 
-### KdV2 Experiment
+### KdV2
 
 ![KdV2 Animation](video_gif/KdV2_video.gif)
 
-### Burgers Experiment
+### Burgers
 
 ![Burgers Animation](video_gif/Burgers_video.gif)
 
-### NLS1 Experiment
+### NLS1
 
 ![NLS1 Animation](video_gif/NLS1_video.gif)
 
-### NLS2 Experiment
+### NLS2
 
 ![NLS2 Animation](video_gif/NLS2_video.gif)
 
