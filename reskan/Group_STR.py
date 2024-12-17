@@ -309,8 +309,8 @@ def compute_lib(input, U, rhs_des, type='real'):
             '|u|': torch.sqrt(U_real**2 + U_imag**2),
             '|u|^2': (U_real**2 + U_imag**2),
             '|u|^3': (U_real**2 + U_imag**2) ** 1.5,
-            'x': torch.zeros_like(U_imag),  # 'x' is real, so imaginary part is zero
-            't': torch.zeros_like(U_imag),  # 't' is real, so imaginary part is zero
+            'x': torch.zeros_like(U_imag),  
+            't': torch.zeros_like(U_imag), 
         }
 
         lib = []
@@ -320,7 +320,7 @@ def compute_lib(input, U, rhs_des, type='real'):
             term = term.replace('i', '') 
             
             if term == '':
-                lib.append(torch.ones_like(U_real) + 1j * torch.ones_like(U_imag))  # Return a complex tensor with ones
+                lib.append(torch.ones_like(U_real) + 1j * torch.ones_like(U_imag)) 
             else:
                 # Parse the term into components
                 components = re.findall(r'(?:\|?u(?:_\{\w+\})?\|?|x|t)\^?\d*', term)
