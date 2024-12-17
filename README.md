@@ -55,17 +55,5 @@ Below are the results of five representative experiments, visualized as animatio
 
 ![NLS2 Animation](video_gif/NLS2_video.gif)
 
-```
 
-```
-## Content
 
-- **`reskan` folder**: Contains the core algorithm files. Notably:
-  - `Model.py`: The main model implementation.
-  - `Create_dataset.py`: Scripts for generating datasets based on the KdV and Burgers equations.
-  - `Group_STR.py`: An improved group sparse regression algorithm and functions for interaction with the neural network model.
-
-- **Equation-specific folders**:
-  - **`vc_Burgers_equation`**, **`vc_KdV_equation`**, **`vc_NLS_equation`**: Each folder contains case studies for the respective equations, along with the training process and results. Sparse regression results for each stage are stored in the `vc_plot` subfolders.
-
-- **`video` folder**: Contains visualizations of the training process for selected case studies of the three equations. These videos highlight the evolving state of the KAN layer at different training stages.
